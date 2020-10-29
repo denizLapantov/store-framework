@@ -1,25 +1,4 @@
- {
-  "header.full": {
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
-
-  "header-layout.desktop": {
-    "children": [
-      "header-row#notification",
-      "header-row#main"
-    ]
-  },
-  "header-layout.mobile": {
-    "children": [
-      "header-row#notification",
-      "header-row#main-mobile",
-      "header-row#search"
-    ]
-  },
-
+{
   "header-row#notification": {
     "children": [
       "header-spacer",
@@ -44,7 +23,7 @@
     "props": {
       "inverted": true,
       "sticky": true,
-      "fullWidth": false
+      "fillWidth": false
     }
   },
   "header-row#main-mobile": {
