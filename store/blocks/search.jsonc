@@ -17,8 +17,7 @@
       "search-fetch-previous",
       "search-fetch-more",
       "flex-layout.row#top",
-      "flex-layout.row#results",
-      "search-fetch-more"
+      "flex-layout.row#results"
     ]
   },
   "flex-layout.row#top":
@@ -35,12 +34,12 @@
     ]
   },
   "flex-layout.col#filter": {
-    "children": [
-      "filter-navigator.v3"
-    ],
     "props":{
       "width" : "20%"
-      }
+      },
+   "children": [
+     "filter-navigator.v3"
+   ]
   },
   "flex-layout.col#search": {
     "children": [
