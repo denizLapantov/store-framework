@@ -23,7 +23,8 @@
       "children": [
         "product-name",
         "product-identifier.product",
-        "product-price"
+        "product-price",
+        "flex-layout.row#qty-sku"
       ],
       "props" : {
         "verticalAlign": "middle",
