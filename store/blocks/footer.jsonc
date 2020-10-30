@@ -41,7 +41,7 @@
             { "url": "https://instagram.com/foo", "name": "Instagram" },
             { "url": "https://twitter.com/foo", "name": "Twitter" }
           ],
-          "showInColor": true
+          "showInColor": true    
         }
       }
   }
